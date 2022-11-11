@@ -9,9 +9,7 @@ The purpose of this project was to refactor - or rewrite - the VBA code we wrote
 
 Using the 2017 data, the run time for the original code was 0.27 seconds, while the run time for the refactored code was 0.066 seconds. 
 
-![](https://github.com/mzabrisk/stock-analysis/blob/5f750baa0086a8a6b9ec6af533212798f6e3e582/Resources/VBA_Challenge_2017.png)
-
-![](https://github.com/mzabrisk/stock-analysis/blob/5f750baa0086a8a6b9ec6af533212798f6e3e582/Resources/VBA_Challenge_Refactored_2017.png)
+![](https://github.com/mzabrisk/stock-analysis/blob/5f750baa0086a8a6b9ec6af533212798f6e3e582/Resources/VBA_Challenge_2017.png) ![](https://github.com/mzabrisk/stock-analysis/blob/5f750baa0086a8a6b9ec6af533212798f6e3e582/Resources/VBA_Challenge_Refactored_2017.png)
 
 Using the 2018 data, the run time for the original code was 0.30 seconds, while the run time for the refactored code was 0.078 seconds. The output using the original and refactored code was identical using both the 2017 and 2018 data.
 
@@ -31,9 +29,7 @@ Meanwhile, in the AllStocksAnalysisRefactored() code, the code is structured so 
 
 Looking at the performance of the stocks, 11/12 tickers analyzed from 2017 saw positive returns, while only 2/12 from 2018 saw positive returns. *ENPH* and *RUN* were the only two that saw positive returns in both years, while *TERP* was the only one that saw negative returns in both years. A more comprehensive analysis would be needed to provide investment recommendations - it's possible that the stocks performing well both years are over-inflated. It's also possible that some of the stocks that performed poorly in 2018 overcorrected from 2017 and are due to bounce back.
 
-![](https://github.com/mzabrisk/stock-analysis/blob/5f750baa0086a8a6b9ec6af533212798f6e3e582/Resources/Stock_Performance_2017.png)
-
-![](https://github.com/mzabrisk/stock-analysis/blob/5f750baa0086a8a6b9ec6af533212798f6e3e582/Resources/Stock_Performance_2018.png)
+![](https://github.com/mzabrisk/stock-analysis/blob/5f750baa0086a8a6b9ec6af533212798f6e3e582/Resources/Stock_Performance_2017.png) ![](https://github.com/mzabrisk/stock-analysis/blob/5f750baa0086a8a6b9ec6af533212798f6e3e582/Resources/Stock_Performance_2018.png)
 
 
 ## Summary

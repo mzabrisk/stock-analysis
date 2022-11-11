@@ -15,9 +15,7 @@ Using the 2017 data, the run time for the original code was 0.27 seconds, while 
 
 Using the 2018 data, the run time for the original code was 0.30 seconds, while the run time for the refactored code was 0.078 seconds. The output using the original and refactored code was identical using both the 2017 and 2018 data.
 
-![](https://github.com/mzabrisk/stock-analysis/blob/5f750baa0086a8a6b9ec6af533212798f6e3e582/Resources/VBA_Challenge_2018.png)
-
-![](https://github.com/mzabrisk/stock-analysis/blob/5f750baa0086a8a6b9ec6af533212798f6e3e582/Resources/VBA_Challenge_Refactored_2018.png)
+![](https://github.com/mzabrisk/stock-analysis/blob/5f750baa0086a8a6b9ec6af533212798f6e3e582/Resources/VBA_Challenge_2018.png) ![](https://github.com/mzabrisk/stock-analysis/blob/5f750baa0086a8a6b9ec6af533212798f6e3e582/Resources/VBA_Challenge_Refactored_2018.png)
 
 In both cases, this reflects an approximately 4x improvement from the original code. Although the difference seems insignificat when looking at fractions of a second, this could be significant with a much larger dataset.
 

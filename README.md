@@ -1,7 +1,7 @@
 # Stock Analysis with VBA - Module 2 Challenge
 
 ## Project Overview
-The purpose of this project was to refactor - or rewrite - the VBA code we wrote during the module 2 exercizes. The code we wrote during the module 2 exercizes involved vested **for loops**, and looped through all lines in the stock performance spreadsheets multiple times - once for each ticker analyzed. The refectored does not contain nested **for loops**, thus only goes through the spreadsheet a single time. This should result in a more efficient code, which is reflected in the run time.
+The purpose of this project was to refactor - or rewrite - the VBA code we wrote during the module 2 exercises. The code we wrote during the module 2 exercises involved vested **for loops**, and looped through all lines in the stock performance spreadsheets multiple times - once for each ticker analyzed. The refectored does not contain nested **for loops**, thus only goes through the spreadsheet a single time. This should result in a more efficient code, which is reflected in the run time.
 
 ## Results
 
@@ -38,3 +38,8 @@ Looking at the performance of the stocks, 11/12 tickers analyzed from 2017 saw p
 ![](https://github.com/mzabrisk/stock-analysis/blob/5f750baa0086a8a6b9ec6af533212798f6e3e582/Resources/Stock_Performance_2018.png)
 
 
+## Summary
+
+The primary advantage of refactoring code is that it's an opportunity to improve on code that has already been written and can serve as a good introduction to already established code. The primary disadvantage is it can be difficult to interpret what someone else has done - especially if it hasn't been thoroughly commented.
+
+In this exercise, we were able to improve on already written code by making it much more efficient. We took code that looped through a spreadsheet 12 times, and changed it so it only had to go through the spreadsheet once. 

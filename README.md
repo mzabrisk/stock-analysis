@@ -23,7 +23,7 @@ In both cases, this reflects an approximately 4x improvement from the original c
 
 The biggest difference in performance likely results from the diffences in the **for loop** structure. In the AllStocksAnalysis() code, there are nested **for loops**, which requres the code to go through the entire spreadsheet multiple times - once for each ticker analyzed.
 
-![](https://github.com/mzabrisk/stock-analysis/blob/5f750baa0086a8a6b9ec6af533212798f6e3e582/Resources/AllStocksAnalysis_ForLoop.png)
+![](https://github.com/mzabrisk/stock-analysis/blob/5131a533ad7e022a9ef77065e91c56608b35da8b/Resources/AllStocksAnalysis_ForLoop.png)
 
 Meanwhile, in the AllStocksAnalysisRefactored() code, the code is structured so that there is only a single pass through the spreadsheet.
 
